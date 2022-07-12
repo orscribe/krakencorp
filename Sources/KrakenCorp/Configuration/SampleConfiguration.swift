@@ -10,6 +10,6 @@ import KrakenCommon
 
 public struct SampleConfiguration : KrakenConfiguration {
     public init(persistence: KrakenPersistence) {
-        let x = ""
+        _ = ""
     }
 }

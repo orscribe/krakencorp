@@ -10,7 +10,7 @@ import KrakenCommon
 
 public struct SampleNetwork : KrakenNetwork {
     public init(auth: KrakenAuthentication, config: KrakenConfiguration) {
-        let x = ""
+        _ = ""
     }
 }
 

@@ -1,3 +1,3 @@
 # KrakenCorp
 
-A description of this package.
+Generic implementation of the Kraken Framework in a small sample application.

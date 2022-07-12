@@ -24,7 +24,7 @@ public struct AuthenticationSwitchView: View {
     public var content: some View {
         switch viewModel.isAuthenticated {
             case true: return AnyView(VehiclesView(repo: krakenApp.Network.Vehicles()))
-            case false: return AnyView(LoginView(title: "Corp corp",
+            case false: return AnyView(LoginView(title: "Vizio Awesome App",
                                                  subTitle: "Sample App",
                                                  bg: krakenApp.Theme.Images.BackgroundImage,
                                                  action: viewModel.updateAuthenticated))
